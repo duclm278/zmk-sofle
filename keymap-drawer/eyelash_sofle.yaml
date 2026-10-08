@@ -97,7 +97,7 @@ layers:
   - PREVIOUS
   - $$mdi:skip-next$$
   - $$mdi:brightness-7$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '2', s: '&bt_clr_1'}
   - F4
