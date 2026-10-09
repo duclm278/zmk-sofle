@@ -963,22 +963,13 @@ rect.held, rect.combo.held {
 <text x="616" y="108" class="combo shifted"><tspan style="font-size: 67%">&amp;bt_clr_4</tspan></text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
-<text x="644" y="91" class="combo tap">
-<tspan x="644" dy="-0.6em">BT</tspan><tspan x="644" dy="1.2em">…</tspan>
+<path d="M616,147 l0,-37" class="combo"/>
+<path d="M616,147 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="602" y="134" width="28" height="26" class="combo"/>
+<text x="616" y="147" class="combo tap">
+<tspan x="616" dy="-0.6em">OUT</tspan><tspan x="616" dy="1.2em">BLE</tspan>
 </text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="630" y="134" width="28" height="26" class="combo"/>
-<text x="644" y="147" class="combo tap">
-<tspan x="644" dy="-0.6em">OUT</tspan><tspan x="644" dy="1.2em">BLE</tspan>
-</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
-<text x="644" y="203" class="combo tap">
-<tspan x="644" dy="-0.6em">OUT</tspan><tspan x="644" dy="1.2em">USB</tspan>
-</text>
+<text x="616" y="136" class="combo shifted"><tspan style="font-size: 86%">OUT USB</tspan></text>
 </g>
 </g>
 </g>
