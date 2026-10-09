@@ -334,6 +334,9 @@ combos:
 - p: [33, 20]
   k: {h: '5', s: '&bt_clr_4'}
   l: [L1]
-- p: [20, 46, 33]
+- p: [20, 46]
   k: {t: OUT BLE, s: OUT USB}
+  l: [L1]
+- p: [20, 33, 46]
+  k: BT CLR ALL
   l: [L1]

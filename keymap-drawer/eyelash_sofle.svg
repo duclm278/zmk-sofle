@@ -971,6 +971,14 @@ rect.held, rect.combo.held {
 </text>
 <text x="616" y="136" class="combo shifted"><tspan style="font-size: 86%">OUT USB</tspan></text>
 </g>
+<g class="combo combopos-4">
+<path d="M616,147 l0,-37" class="combo"/>
+<path d="M616,147 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="602" y="134" width="28" height="26" class="combo"/>
+<text x="616" y="147" class="combo tap">
+<tspan x="616" dy="-0.6em">BT</tspan><tspan x="616" dy="1.2em">…</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-L2">
