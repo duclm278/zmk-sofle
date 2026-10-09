@@ -129,7 +129,13 @@
 
         c_out_ble {
             bindings = <&out_ble>;
-            key-positions = <20 46 33>;
+            key-positions = <20 46>;
+            layers = <1>;
+        };
+
+        bt_clr_all {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <20 33 46>;
             layers = <1>;
         };
     };
