@@ -97,10 +97,10 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        out_tog: out_tog {
+        out_ble: out_ble {
             compatible = "zmk,behavior-mod-morph";
-            label = "OUT_TOG";
-            bindings = <&out OUT_TOG>, <&out OUT_USB>;
+            label = "OUT_BLE";
+            bindings = <&out OUT_BLE>, <&out OUT_USB>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -127,8 +127,8 @@
             layers = <1>;
         };
 
-        c_out_tog {
-            bindings = <&out_tog>;
+        c_out_ble {
+            bindings = <&out_ble>;
             key-positions = <46 33 20 33 46 20 33 46>;
             layers = <1>;
         };
@@ -190,11 +190,11 @@
         L1 {
             display-name = "L1";
             bindings = <
-&kp F11  &kp F1            &kp F2             &kp F3           &kp F4                &kp F5            &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F12
-&trans   &kp C_MUTE        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC  &trans            &trans  &bt2    &kp F7  &kp F8  &kp F9  &kp F12  &trans
-&trans   &kp C_PLAY_PAUSE  &kp C_PREVIOUS     &kp C_NEXT       &kp C_BRIGHTNESS_DEC  &bt BT_CLR_ALL    &trans  &bt1    &kp F4  &kp F5  &kp F6  &kp F11  &trans
-&trans   &kp LGUI          &kp LALT           &kp LCTRL        &kp LSHFT             &trans            &trans  &bt0    &kp F1  &kp F2  &kp F3  &kp F10  &trans
-&trans   &trans            &trans             &trans           &trans                &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&kp F11  &kp F1            &kp F2             &kp F3           &kp F4                &kp F5    &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F12
+&trans   &kp C_MUTE        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC  &trans    &trans  &bt2    &kp F7  &kp F8  &kp F9  &kp F12  &trans
+&trans   &kp C_PLAY_PAUSE  &kp C_PREVIOUS     &kp C_NEXT       &kp C_BRIGHTNESS_DEC  &trans    &trans  &bt1    &kp F4  &kp F5  &kp F6  &kp F11  &trans
+&trans   &kp LGUI          &kp LALT           &kp LCTRL        &kp LSHFT             &trans    &trans  &bt0    &kp F1  &kp F2  &kp F3  &kp F10  &trans
+&trans   &trans            &trans             &trans           &trans                &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&rsr_vol>, <&rsr_trans>;
