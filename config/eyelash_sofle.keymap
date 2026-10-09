@@ -96,6 +96,15 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        out_ble: out_ble {
+            compatible = "zmk,behavior-mod-morph";
+            label = "OUT_BLE";
+            bindings = <&out OUT_BLE>, <&out OUT_USB>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     combos {
@@ -118,21 +127,9 @@
             layers = <1>;
         };
 
-        bt_clr_all {
-            bindings = <&bt BT_CLR_ALL>;
-            key-positions = <20 21>;
-            layers = <1>;
-        };
-
-        out_ble {
-            bindings = <&out OUT_BLE>;
-            key-positions = <33 34>;
-            layers = <1>;
-        };
-
-        out_usb {
-            bindings = <&out OUT_USB>;
-            key-positions = <46 47>;
+        c_out_ble {
+            bindings = <&out_ble>;
+            key-positions = <20 46 33>;
             layers = <1>;
         };
     };
