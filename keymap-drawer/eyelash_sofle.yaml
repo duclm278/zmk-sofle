@@ -336,7 +336,10 @@ combos:
   l: [L1]
 - p: [20, 21]
   k: BT CLR ALL
+  l: [L1]
 - p: [33, 34]
   k: OUT BLE
+  l: [L1]
 - p: [46, 47]
   k: OUT USB
+  l: [L1]
