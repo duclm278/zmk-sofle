@@ -97,7 +97,7 @@ layers:
   - PREVIOUS
   - $$mdi:skip-next$$
   - $$mdi:brightness-7$$
-  - BT CLR ALL
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '2', s: '&bt_clr_1'}
   - F4
@@ -335,5 +335,5 @@ combos:
   k: {h: '5', s: '&bt_clr_4'}
   l: [L1]
 - p: [46, 33, 20, 33, 46, 20, 33, 46]
-  k: {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: OUT USB}
+  k: {t: OUT BLE, s: OUT USB}
   l: [L1]
